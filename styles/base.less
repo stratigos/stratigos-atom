@@ -1,0 +1,232 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: rgba(96, 95, 96, 0.33);
+}
+
+.comment.block {
+  font-weight: bold;
+  font-style: italic;
+  color: #4EB743;
+}
+
+.comment.line {
+  font-style: italic;
+  color: #40923A;
+}
+
+.keyword, .storage {
+  color: #FFB85A;
+}
+
+.constant.numeric {
+  color: #FF0300;
+}
+
+.source.ruby .meta.constant.ruby .entity.name.constant.ruby {
+  color: #5596FF;
+}
+
+.source.ruby {
+  color: #BFBFBF;
+}
+
+.source.ruby .punctuation.accessor.ruby {
+  font-weight: bold;
+  color: #6a778c;
+}
+
+.source.ruby .meta.module.ruby .entity.name.module.ruby {
+  font-weight: bold;
+  color: #9C6CFF;
+}
+
+.constant {
+  color: #4367F7;
+}
+
+.constant.language {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.variable.language, .variable.other {
+  font-weight: bold;
+  color: #0096FF;
+}
+
+.string {
+  font-weight: bold;
+  color: #04980B;
+}
+
+.constant.character.escape, .string .source {
+  font-weight: bold;
+  color: #26B31A;
+}
+
+.meta.preprocessor {
+  color: #1A921C;
+}
+
+.keyword.control.import {
+  font-weight: bold;
+  color: #0C450D;
+}
+
+.entity.name.function, .support.function.any-method {
+  font-weight: bold;
+  color: #C92EFF;
+}
+
+.entity.name.type {
+  color: #A470FF;
+}
+
+.entity.other.inherited-class {
+  color: #9C6CFF;
+}
+
+.entity.name.class, .entity.name.type.class {
+  color: #9C6CFF;
+}
+
+.variable.parameter {
+  font-style: italic;
+}
+
+.storage.type.method {
+  color: #70727E;
+}
+
+.meta.section .entity.name.section, .declaration.section .entity.name.section {
+  font-style: italic;
+}
+
+.support.function {
+  font-weight: bold;
+  color: #774400;
+}
+
+.support.class, .support.type {
+  font-weight: bold;
+  color: #A546FF;
+}
+
+.support.constant {
+  font-weight: bold;
+  color: #06960E;
+}
+
+.support.variable {
+  font-weight: bold;
+  color: #21439C;
+}
+
+.keyword.operator.js {
+  color: #687687;
+}
+
+.invalid {
+  color: #FFFFFF;
+  background-color: #230000;
+}
+
+.invalid.deprecated.trailing-whitespace {
+  background-color: #FFD0D0;
+}
+
+.text .source, .string.unquoted {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.text .source .string.unquoted, .text .source .text .source {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.meta.tag.preprocessor.xml {
+  color: #68685B;
+}
+
+.meta.tag.sgml.doctype, .meta.tag.sgml.doctype .entity, .meta.tag.sgml.doctype .string, .meta.tag.preprocessor.xml, .meta.tag.preprocessor.xml .entity, .meta.tag.preprocessor.xml .string {
+  color: #888888;
+}
+
+.string.quoted.docinfo.doctype.DTD {
+  font-style: italic;
+}
+
+.meta.tag, .declaration.tag {
+  font-weight: bold;
+  color: #D96100;
+}
+
+.entity.name.tag {
+  font-weight: bold;
+  color: #B63800;
+}
+
+.entity.other.attribute-name {
+  color: #AF00FF;
+}
+
+.variable.parameter {
+  color: #0164FF;
+}
+
+.markup.quote {
+  font-style: italic;
+  color: #FFFFFF;
+}
+
+.markup.list {
+  color: #B90690;
+}
