@@ -1,5 +1,5 @@
 {
-  "name": "todd-atom1",
+  "name": "stratigos-atom",
   "theme": "syntax",
   "version": "0.0.0",
   "description": "A short description of your syntax theme",
@@ -7,7 +7,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/todd-atom1",
+  "repository": "https://github.com/stratigos/stratigos-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

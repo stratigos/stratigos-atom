@@ -1,4 +1,4 @@
-# todd-atom1 theme
+# stratigos-atom theme
 
 A short description of your theme.
 
