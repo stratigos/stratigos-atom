@@ -63,6 +63,19 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #40923A;
 }
 
+// This atom-specific style selector for comment text.
+atom-text-editor .syntax--comment {
+  font-style: italic;
+  color: #40923A;
+}
+
+// This is atom-specific style selector for comment punctuation, i.e., `//`,
+//  and `/*...*/``.
+.syntax--punctuation.syntax--definition.syntax--comment {
+    color: #00E500;
+    font-weight: bold;
+}
+
 .keyword, .storage {
   color: #FFB85A;
 }
