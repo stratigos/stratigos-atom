@@ -10,6 +10,8 @@ It has been converted into a Sublime 2/3 theme, and modified along the way to ac
 
 Its latest iteration is a conversion into an Atom package, still Ruby centric, though I expect it to evolve to fine tune colors for ES6 JS and JSX, and Elixir. 
 
+**Dark theme the entire web! Save your eyes, your screen, and the world's energy bill.**
+
 LICENSE
 -------
 
