@@ -1,10 +1,10 @@
 # stratigos-atom theme
 
-Its dark (themed), and uses a wide variety of colors with high contrasting text to emphasize keywords and make code pop out. It is not colored for style or prettiness :-D.
+This is a dark theme that uses a wide variety of colors with high contrasting text to emphasize keywords and make code pop out. It is not colored for style or prettiness :-D.
 
 ![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
 
-This theme began as a TextMate theme, circa 2008, and was mostly tailored for Object Oriented PHP5. I havent worked with PHP in a few years, so it has not received further development for PHP7.
+This theme began as a TextMate theme, circa 2008, and was mostly tailored for Object Oriented PHP5. I haven't worked with PHP in a few years, so it has not received further development for PHP7.
 
 It has been converted into a Sublime 2/3 theme, and modified along the way to accomodate Ruby syntax. I mostly work with Ruby/Rails these days, and the rules I have for Ruby syntax seem to apply well elsewhere (for other languages). 
 
